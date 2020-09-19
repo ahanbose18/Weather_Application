@@ -1,0 +1,60 @@
+*{
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+}
+
+body{
+  font-family: 'Roboto', sans-serif;
+}
+ 
+header{
+ text-align: center;
+}
+
+ .title h1{
+  font-size: 3rem;
+  letter-spacing: 1px;
+  margin: 20px auto;
+}
+
+.sub-title{
+  font-size: 1.5rem;
+  color: antiquewhite;
+  padding: 20px;
+  
+}
+
+.container{
+  margin: 20px auto;
+}
+
+footer{
+  position: absolute;
+  bottom: 0px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.table{
+  margin: 20px auto;
+}
+
+.alert{
+  margin: 40px auto;
+}
+
+
+@media only screen and (min-width:1000px){
+  .title{
+    font-size: 5rem;
+  }
+  .sub-title{
+    font-size: 2rem;
+  }
+
+  footer p{
+    letter-spacing: 10px;
+    
+  }
+}

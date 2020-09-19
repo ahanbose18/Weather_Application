@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/css/style.css">
+  <link rel="stylesheet" href="/css/bootstrap.min.css">
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="/js/typed.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <title>Weather</title>
+</head>
+<body>
+  <div class="title" style="text-align: center;">
+    <h1>Weather App</h1>
+  </div>
+
+  
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-12">
+          <form >
+              <legend>Enter Location</legend>
+              <div class="form-group justify-content-center">
+                <label for="Location">Location</label>
+                <input type="text" class="form-control w-50" id="exampleInputLocation" aria-describedby="LocationHelp" placeholder="Enter location">
+              </div>
+              <button type="submit" class="btn btn-primary btn-success">Submit</button>
+          </form>
+          
+          </div>
+        </div>
+      </div>
+
+
+      
+        <div class="alert alert-success w-50">
+            
+             <h4 class="alert-heading">Ready!!! Enter a location!!!</h4>
+ 
+        </div>
+
+        
+    <table class="table table-hover" style="margin-top: 20px;">
+      <thead>
+        <tr class="table-dark">
+          <th scope="col">Location</th>
+          <th scope="col">Time</th>
+          <th scope="col">Wind Speed</th>
+          <th scope="col">Humidity</th>
+          <th scope="col">Weather Description</th>
+        </tr>
+      </thead>
+      <tbody>
+  
+        <tr class="table-info">
+          <th scope="row" class="location">None</th>
+          <td class="time">None</td>
+          <td class="windspeed">None</td>
+          <td class="humidity">None</td>
+          <td class="weatherdesc">None</td>
+        </tr>
+      </tbody>  
+        
+</table> 
+  
+       <button type="button" class="btn btn-primary ml-5 my-lg-5"><a href="http://localhost:3000/">Back</a></button>
+
+
+
+
+      
+  <script src="/js/app.js"></script>
+</body>
