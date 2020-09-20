@@ -25,7 +25,7 @@ weatherdesc.textContent = "None";
    const location = searchlocation.value;
    m1head.className = "alert alert-info w-50"
    m1.textContent = "Loading....";
-   fetch('http://localhost:3000/weather?location='+location).then((response)=>{
+   fetch('/weather?location='+location).then((response)=>{
      response.json().then((data)=>{
       if(data.error){
          m1head.className = "alert alert-danger w-50"

@@ -12,6 +12,9 @@ const pathTOtemplates = path.join(__dirname,'../templates/views')
 const pathTOpublic = path.join(__dirname,'../public')
 const pathTOpartials = path.join(__dirname,'../templates/partials')
 
+//Define Production Port
+const port = process.env.PORT ||3000
+
 //serving static
 app.use(express.static(pathTOpublic));
 //enable cors
@@ -93,4 +96,4 @@ app.post('/dashboard',(req,res)=>{
 app.get('*',(req,res)=>{
   res.send("Error 404");
 })
-app.listen(3000, ()=>{console.log("Server Started on Port 3000")});
+app.listen(port, ()=>{console.log("Server Started on Port"+port)});
