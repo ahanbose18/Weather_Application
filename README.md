@@ -19,5 +19,5 @@ Please check out the app! @ -> https://bose-weatherapp-20920.herokuapp.com/
 ### Version Control
 -> Git
 ### Quick Preview
-(Image 1)[https://github.com/ahanbose18/Weather_Application/blob/master/Weather%20-%20Google%20Chrome%2020-09-2020%2010_06_57.png]</br>
-(Image 2)[https://github.com/ahanbose18/Weather_Application/blob/master/Weather%20-%20Google%20Chrome%2020-09-2020%2010_07_22.png]</br>
+![Image 1][https://github.com/ahanbose18/Weather_Application/blob/master/Weather%20-%20Google%20Chrome%2020-09-2020%2010_06_57.png]</br>
+![Image 2][https://github.com/ahanbose18/Weather_Application/blob/master/Weather%20-%20Google%20Chrome%2020-09-2020%2010_07_22.png]</br>
